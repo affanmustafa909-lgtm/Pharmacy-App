@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build / cache
+dist/
+dist-web/
+web-build/
+.expo/
+.metro-health-check*
+*.tsbuildinfo
+.turbo/
+.vite/
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Logs & OS
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+.DS_Store
+Thumbs.db
+
+# Backend uploads (keep placeholder)
+backend/uploads/**
+!backend/uploads/.gitkeep
+
+# Android / native
+mobile/android/app/build/
+mobile/android/app/.cxx/
+mobile/android/.gradle/
+mobile/android/local.properties
+.kotlin/
+
+# Editor / local
+.idea/
+.vscode/
+*.local
+ui.xml
+ui2.xml
+ui3.xml
